@@ -26,7 +26,7 @@ this.b = _b;
 }
 
 int getVal (){
-assert (this.b.getClass()==Derived.class && this.b.getClass() != Base.class);
+assert (b instanceof Derived && b.getClass() != Base.class);
 return b.compute ();
  }
 
